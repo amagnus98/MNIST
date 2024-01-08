@@ -1,0 +1,2 @@
+from mnist_dvc_project.models.model import MyNeuralNet
+from mnist_dvc_project.predict_model import predict
