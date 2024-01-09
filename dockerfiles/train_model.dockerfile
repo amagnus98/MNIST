@@ -8,7 +8,8 @@ RUN apt update && \
 COPY requirements.txt requirements.txt
 COPY pyproject.toml pyproject.toml
 COPY mnist_dvc_project/ mnist_dvc_project/
-COPY data/ data/
+
+
 
 WORKDIR /
 RUN pip install -r requirements.txt --no-cache-dir
